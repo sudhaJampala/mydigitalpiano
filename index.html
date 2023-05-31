@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Digital Piano</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="piano">
+      <div class="piano-name">
+        <h2>My Digital Paino</h2>
+        <div class="toggle">
+          <label for="showNotes">Show Notes</label>
+          <input type="checkbox" id="showNotes" checked/>
+        </div>
+      </div>
+      <ul class="keyrow">
+        <li class="paino-key white" data-name="c"><span>C</span></li>
+        <li class="paino-key black" data-name="cs">
+          <span>C#<br />Db</span>
+        </li>
+        <li class="paino-key white" data-name="d"><span>D</span></li>
+        <li class="paino-key black" data-name="ds">
+          <span>D#<br />Eb</span>
+        </li>
+        <li class="paino-key white" data-name="e"><span>E</span></li>
+        <li class="paino-key white" data-name="f"><span>F</span></li>
+        <li class="paino-key black" data-name="fs">
+          <span>F#<br />Gb</span>
+        </li>
+        <li class="paino-key white" data-name="g"><span>G</span></li>
+        <li class="paino-key black" data-name="gs">
+          <span>G#<br />Ab</span>
+        </li>
+        <li class="paino-key white" data-name="a"><span>A</span></li>
+        <li class="paino-key black" data-name="as">
+          <span>A#<br />Bb</span>
+        </li>
+        <li class="paino-key white" data-name="b"><span>B</span></li>
+        <li class="paino-key white" data-name="c2"><span>C</span></li>
+        <li class="paino-key black" data-name="c2s">
+          <span>C#<br />Db</span>
+        </li>
+        <li class="paino-key white" data-name="d2"><span>D</span></li>
+        <li class="paino-key black" data-name="d2s">
+          <span>D#<br />Eb</span>
+        </li>
+        <li class="paino-key white" data-name="e2"><span>E</span></li>
+      </ul>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
